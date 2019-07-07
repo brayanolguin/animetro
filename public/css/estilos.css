@@ -1,0 +1,35 @@
+.cuadro-img{
+    background-color: #5d5454;
+    opacity: 0.5;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    z-index: 1;
+  }
+
+.txt-cuadro-img{
+    z-index: 1;
+}
+
+.cuadro-oferta{
+  background-color: #5d5454;
+  opacity: 0.5;
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  z-index: 1;
+}
+
+.input-error{
+  border: 1px solid red !important;
+}
+
+.txt-color-white{
+  color: white;
+}
+
+.txt-color-red{
+  color: red;
+}
