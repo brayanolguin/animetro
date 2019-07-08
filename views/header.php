@@ -55,22 +55,22 @@
                 <nav class="menu">
                     <ul class="main_menu">
                         <li>
-                            <a href="/tumanga/main">Inicio</a>
+                            <a href="<?php echo constant('URL') ?>main">Inicio</a>
                         </li>
                         <li>
-                            <a href="/tumanga/productos">Productos</a>
+                            <a href="<?php echo constant('URL') ?>productos">Productos</a>
                         </li>
                         <li>
-                            <a href="/tumanga/contacto">Contacto</a>
+                            <a href="<?php echo constant('URL') ?>contacto">Contacto</a>
                         </li>
                         <li>
-                            <a href="/tumanga/admin">Administracion</a>
+                            <a href="<?php echo constant('URL') ?>admin">Administracion</a>
                         </li>
                         <li>
                             <a>Nuevo</a>
                             <ul class="sub_menu">
-                                <li><a href="/tumanga/nuevo">Nuevo 2</a></li>
-                                <li><a href="/tumanga/nuevo">Nuevo 3</a></li>
+                                <li><a href="<?php echo constant('URL') ?>nuevo">Nuevo 2</a></li>
+                                <li><a href="<?php echo constant('URL') ?>nuevo">Nuevo 3</a></li>
                             </ul>
                         </li>
                     </ul>

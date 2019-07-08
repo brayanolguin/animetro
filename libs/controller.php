@@ -6,7 +6,7 @@ class Controller{
     }
 
     function loadModel($model){
-        $url = 'models/' . $model . 'model.php';
+        $url = 'models/' . $model . 'Model.php';
 
         if (isset($url)){
             require $url;

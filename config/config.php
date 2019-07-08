@@ -1,6 +1,6 @@
 <?php 
 
-define('URL', 'http://localhost/tumanga/');
+define('URL', 'http://localhost/animetro/');
 
 define('HOST', 'localhost');
 define('DB', 'animetro');
